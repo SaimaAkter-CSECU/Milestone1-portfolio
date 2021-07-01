@@ -85,6 +85,7 @@ h1 span, h3 span{
 .btn:hover{
     background: linear-gradient(-10deg, #FF8063 95.83%, #F46060 -28.33%);
     font-weight: bold;
+    box-shadow: 0px 0px 0px 9px rgb(0 0 0 / 7%);
 }
 
 .first-section-content{
@@ -120,6 +121,11 @@ h1 span, h3 span{
     padding: 10px;
     float: left;
     margin: 10px;
+    transition: transform .5s ease;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 2px 2px 9px rgb(0 0 0 / 10%);
 }
 .card img{
     width: 100%;
@@ -169,7 +175,8 @@ h1 span, h3 span{
     width: 40px;
     height: 40px;
     padding: 10px;
+    transition: transform .5s ease;
 }
 .icons img:hover{
-    transform: scale(1.09);
+    transform: scale(1.2);
 }
